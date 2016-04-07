@@ -1,4 +1,5 @@
 var jQuery = require('jquery');
+var $ = jQuery;
 /*!
  * Select2 4.0.0-rc.2
  * https://select2.github.io
@@ -3940,7 +3941,7 @@ var jQuery = require('jquery');
         ], function ($, Select2, Defaults) {
             // Force jQuery.mousewheel to be loaded if it hasn't already
             try {
-                require('jquery.mousewheel');
+                require('jquery-mousewheel');
             } catch (Exception) {
             }
             if ($.fn.select2 == null) {
