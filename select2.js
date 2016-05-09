@@ -1,5 +1,6 @@
 var jQuery = require('jquery');
 var $ = jQuery;
+
 require('./select2.css');
 /*!
  * Select2 4.0.0-rc.2

@@ -1,4 +1,4 @@
-require('./select2.css');
+
 /*!
  * Select2 4.0.0-rc.2
  * https://select2.github.io
@@ -6,7 +6,7 @@ require('./select2.css');
  * Released under the MIT license
  * https://github.com/select2/select2/blob/master/LICENSE.md
  */
-
+require('./select2.css');
 (function (factory) {
     // AMD. Register as an anonymous module.
     
