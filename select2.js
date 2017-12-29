@@ -3908,7 +3908,9 @@ S2.define('select2/dropdown/search',[
     decorated.call(this, container, $container);
 
     this.$search.on('keydown', function (evt) {
-      self.trigger('keypress', evt);
+      setTimeout(function(){
+        self.trigger('keypress', evt);
+      },100);
 
       self._keyUpPrevented = evt.isDefaultPrevented();
     });
